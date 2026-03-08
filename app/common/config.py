@@ -314,7 +314,7 @@ class Config(QConfig):
     language = OptionsConfigItem(
         "MainWindow",
         "Language",
-        Language.AUTO,
+        Language.ENGLISH,
         OptionsValidator(Language),
         LanguageSerializer(),
         restart=True,
